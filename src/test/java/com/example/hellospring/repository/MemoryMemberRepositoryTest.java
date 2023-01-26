@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Repository;
 
 import com.example.hellospring.domain.Member;
 
