@@ -26,10 +26,9 @@ public class MemberService {
      * @return member의 id
      */
     public Long join(Member member) {
-
         validateDuplicateMember(member); // 중복 회원 검증
         memberRepository.save(member);
-        return member.getId();
+        return member.getId();    
     }
 
     private void validateDuplicateMember(Member member) {
